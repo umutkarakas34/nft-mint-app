@@ -66,13 +66,12 @@ h1 {
   cursor: not-allowed;
 }
 
-/* Dinamik Status Mesajları */
 .status.success {
-  color: #1abc9c; /* Yeşil */
+  color: #1abc9c;
 }
 
 .status.error {
-  color: #e74c3c; /* Kırmızı */
+  color: #e74c3c;
 }
 
 .status {

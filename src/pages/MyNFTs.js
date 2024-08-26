@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ethers } from 'ethers';
 import nftAbi from './NFT_ABI.json';
-import './MyNFTs.css';
+import '../styles/MyNFTs.css';
 import WalletConnectionPrompt from '../components/WalletConnectionPrompt';
-import loadingGif from '../assets/loading.gif'; // Yükleniyor gifini buradan çağırıyoruz
+import loadingGif from '../assets/loading.gif';
 
 function MyNFTs({ account }) {
     const [nfts, setNfts] = useState([]);
@@ -84,14 +84,14 @@ function MyNFTs({ account }) {
     const openModal = (nft) => {
         setSelectedNFT(nft);
         if (modalRef.current) {
-            modalRef.current.style.display = 'flex'; // Modalı flex yapısıyla açıyoruz
+            modalRef.current.style.display = 'flex';
         }
     };
 
     const closeModal = () => {
         setSelectedNFT(null);
         if (modalRef.current) {
-            modalRef.current.style.display = 'none'; // Modalı kapatıyoruz
+            modalRef.current.style.display = 'none';
         }
     };
 
@@ -103,11 +103,11 @@ function MyNFTs({ account }) {
         <div className="my-nfts-page">
             {loading ? (
                 <div className="loading-section">
-                    <img src={loadingGif} alt="Loading..." className="loading-gif" /> {/* Sadece gif */}
+                    <img src={loadingGif} alt="Loading..." className="loading-gif" />
                 </div>
             ) : (
                 <>
-                    <h1>Your NFTs Minted on Our Platform - Scroll Sepolia Testnet</h1> {/* Başlık sadece içerik yüklendiğinde gelir */}
+                    <h1>Your NFTs Minted on Our Platform - Scroll Sepolia Testnet</h1>
                     {error ? (
                         <p>{error}</p>
                     ) : (

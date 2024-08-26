@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import '../styles/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopy, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -27,7 +27,7 @@ function Navbar({ account, connectWallet, disconnectWallet, copyAddressToClipboa
               <div className="wallet-dropdown">
                 <button onClick={copyAddressToClipboard}>
                   <FontAwesomeIcon icon={faCopy} />
-                  {copied ? "Copied!" : "Copy Address"} {/* Dinamik metin */}
+                  {copied ? "Copied!" : "Copy Address"}
                 </button>
                 <button onClick={disconnectWallet} className="disconnect-btn">
                   <FontAwesomeIcon icon={faSignOutAlt} /> Disconnect

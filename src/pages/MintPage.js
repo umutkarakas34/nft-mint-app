@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './MintPage.css';
+import '../styles/MintPage.css';
 import { ethers } from 'ethers';
 import nftAbi from './NFT_ABI.json';
 import WalletConnectionPrompt from '../components/WalletConnectionPrompt';
@@ -33,13 +33,13 @@ function MintPage({ account }) {
     const [image, setImage] = useState(null);
     const [minting, setMinting] = useState(false);
     const [status, setStatus] = useState('');
-    const [statusType, setStatusType] = useState(''); // Success or Error
+    const [statusType, setStatusType] = useState('');
 
     const handleImageUpload = (e) => {
         const file = e.target.files[0];
         setImage(file);
         setStatus('');
-        setStatusType(''); // Clear status on new upload
+        setStatusType('');
     };
 
     const handleMint = async () => {
@@ -58,7 +58,7 @@ function MintPage({ account }) {
 
         setMinting(true);
         setStatus('Minting NFT...');
-        setStatusType(''); // Clear status while minting
+        setStatusType('');
 
         try {
             const provider = new ethers.BrowserProvider(window.ethereum);
@@ -108,7 +108,7 @@ function MintPage({ account }) {
                 {minting ? 'Minting...' : 'Mint NFT'}
             </button>
 
-            {status && <p className={`status ${statusType}`}>{status}</p>} {/* Status mesajına dinamik sınıf ekliyoruz */}
+            {status && <p className={`status ${statusType}`}>{status}</p>}
         </div>
     );
 }

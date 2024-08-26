@@ -70,7 +70,7 @@ h1 {
     background-color: #fff;
     border-radius: 10px;
     width: 600px;
-    height: 600px; /* Sabit kare boyut */
+    height: 600px; 
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -82,8 +82,8 @@ h1 {
 .modal-content img {
     width: 80%;
     width: 80%;
-    object-fit: contain; /* Görüntüyü kare alan içinde tut */
-    margin-bottom: 20px; /* Altındaki yazılardan uzaklaştırır */
+    object-fit: contain; 
+    margin-bottom: 20px; 
 }
 
 .modal-content p.nft-title {
@@ -126,10 +126,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh; /* Sayfanın tam yüksekliğinde ortalamak için */
+    min-height: 80vh; 
 }
 
 .loading-gif {
-    width: 128px; /* İkonun boyutu, ihtiyaca göre ayarlanabilir */
+    width: 128px; 
     height: 128px;
 }

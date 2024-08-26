@@ -1,5 +1,5 @@
 import React from 'react';
-import './WalletConnection.css'; // CSS dosyasını import ediyoruz
+import '../styles/WalletConnection.css';
 
 function WalletConnection() {
     return (
