@@ -6,7 +6,7 @@ This project enables users to mint NFTs on the Scroll Sepolia Testnet using a sm
 
 The smart contract for minting NFTs is deployed at: `0x17E914af9245de9371C7D4F1963c5ea85A56b5A8`
 
-You can view the contract details on Scroll Scan: [View Contract]([https://scrollscan.com/address/0x17E914af9245de9371C7D4F1963c5ea85A56b5A8](https://sepolia.scrollscan.com/address/0x17e914af9245de9371c7d4f1963c5ea85a56b5a8#code))
+[View Contract](https://sepolia.scrollscan.com/address/0x17e914af9245de9371c7d4f1963c5ea85a56b5a8#code)
 
 ## Features
 
