@@ -1,10 +1,12 @@
-# NFT Minting Project
+# NFT Mint App
 
 This project enables users to mint NFTs on the Scroll Sepolia Testnet using a smart contract deployed on Ethereum. It provides a streamlined process for uploading images to IPFS via Pinata, minting NFTs with those images, and viewing minted NFTs on a dedicated page.
 
 ## Contract Address
 
 The smart contract for minting NFTs is deployed at: `0x17E914af9245de9371C7D4F1963c5ea85A56b5A8`
+
+You can view the contract details on Scroll Scan: [View Contract](https://scrollscan.com/address/0x17E914af9245de9371C7D4F1963c5ea85A56b5A8)
 
 ## Features
 
@@ -18,6 +20,34 @@ The smart contract for minting NFTs is deployed at: `0x17E914af9245de9371C7D4F19
 2. **Mint NFT:** The NFT is minted by submitting the IPFS URL as metadata to the smart contract.
 
 3. **View NFTs:** Users can navigate to the "My NFTs" page to see all NFTs they have minted using their connected wallet.
+
+## Screenshots
+
+Here are some screenshots of the application:
+
+1. **Homepage:**
+   ![Homepage](path/to/homepage-photo.png)
+
+2. **Mint NFT Page:**
+   ![Mint NFT Page](path/to/mint-nft-photo.png)
+
+3. **My NFTs Page:**
+   ![My NFTs Page](path/to/my-nfts-photo.png)
+
+4. **NFT Details Page:**
+   ![NFT Details Page](path/to/nft-details-photo.png)
+
+## Technologies Used
+
+- **web3js**
+- **etherjs**
+- **reactjs**
+
+The Solidity code for the NFT smart contract can be found in the `NFT.sol` file.
+
+## Optional Setup
+
+Hardhat setup was completed for this project and can be optionally used by users for further development.
 
 ## Notes
 
