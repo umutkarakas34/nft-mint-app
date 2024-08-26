@@ -29,13 +29,13 @@ Here are some screenshots of the application:
    ![Homepage](screenshots/1.png)
 
 2. **Mint NFT Page:**
-   ![Mint NFT Page](path/to/mint-nft-photo.png)
+   ![Mint NFT Page](screenshots/2.png)
 
 3. **My NFTs Page:**
-   ![My NFTs Page](path/to/my-nfts-photo.png)
+   ![My NFTs Page](screenshots/3.png)
 
 4. **NFT Details Page:**
-   ![NFT Details Page](path/to/nft-details-photo.png)
+   ![NFT Details Page](screenshots/4.png)
 
 ## Technologies Used
 
