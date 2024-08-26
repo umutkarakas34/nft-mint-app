@@ -1,0 +1,18 @@
+.wallet-connection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Sayfanın tam yüksekliğinde */
+}
+
+.wallet-message {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(247, 243, 7, 0.45); /* Daha geniş ve yumuşak bir gölge */
+    max-width: 500px; /* Daha geniş bir kutu */
+}
