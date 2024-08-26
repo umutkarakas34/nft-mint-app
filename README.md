@@ -26,7 +26,7 @@ You can view the contract details on Scroll Scan: [View Contract](https://scroll
 Here are some screenshots of the application:
 
 1. **Homepage:**
-   ![Homepage](path/to/homepage-photo.png)
+   ![Homepage](screenshots/1.png)
 
 2. **Mint NFT Page:**
    ![Mint NFT Page](path/to/mint-nft-photo.png)
